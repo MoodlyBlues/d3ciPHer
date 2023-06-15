@@ -115,15 +115,15 @@ span{
     color: var(--text-color);
     box-shadow: 4px 4px  var(--main-color);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     header {
-        display: none;
-      }
+      display: none;
+    }
     .navbar {
-        display: none;
-      }
+      display: none;
+    }
     .btn {
-        display: none;
+      display: none;
     }
     .home {
       grid-template-columns: 1fr;
@@ -145,7 +145,6 @@ span{
     .home-img img {
       max-width: 100%;
       width: auto;
-      
     }
   }
 
@@ -218,10 +217,10 @@ span{
     font-weight: 500;
     margin-bottom: 5px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .profile {
       grid-template-columns: 1fr; /* Change to a single column layout */
-      grid-gap: 3rem; /* Adjust the grid gap */
+      grid-gap: 2rem; /* Adjust the grid gap */
       padding: 0 1rem; /* Adjust the padding */
     }
   
@@ -270,6 +269,7 @@ span{
       font-size: 16px; /* Adjust the font size */
     }
   }
+  
 .center{
     text-align: center;
     
@@ -315,40 +315,42 @@ span{
 .js:hover{width: 40%;  height: 30px; background-color: var(--main-color);} /* Red */
 .php:hover{width: 40%;  height: 30px; background-color: var(--2nd-main-color);} /* Dark Grey */
 .c:hover{width: 55%;  height: 30px; background-color: var(--main-color);} /* Red */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .center {
-        margin-top: 30rem;
-      }
+      margin-top: 30rem;
+    }
+  
     .center h3 {
-    font-size: 24px; /* Adjust the font size */
-      }
-
+      font-size: 24px; /* Adjust the font size */
+    }
+  
     .skill-content {
-    display: block; /* Change to a block layout */
-    margin-top: 1rem; /* Adjust the margin */
-      }
-
+      display: block; /* Change to a block layout */
+      margin-top: 1rem; /* Adjust the margin */
+    }
+  
     .skill-box,
     .skills p {
-    text-align: center; /* Center-align text */
-      }
-
+      text-align: center; /* Center-align text */
+    }
+  
     .skills p {
-    padding: 5px 0; /* Adjust the padding */
-      }
-
+      padding: 5px 0; /* Adjust the padding */
+    }
+  
     .skill-content .skills {
-    margin-top: 1rem; /* Add top margin */
-      }
-
+      margin-top: 1rem; /* Add top margin */
+    }
+  
     .skill-content .skills:first-child {
-    margin-top: 0; /* Remove top margin from the first skills section */
-      }
-
+      margin-top: 0; /* Remove top margin from the first skills section */
+    }
+  
     .skill-box:hover {
-    width: inherit; /* Inherit the width from the parent element */
-      }
+      width: inherit; /* Inherit the width from the parent element */
+    }
   }
+  
 .row{
     background: #353a36;
     padding: 20px 20px;
@@ -435,7 +437,7 @@ span{
 .container{
     perspective: 1000px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .project-center h3 {
       font-size: 24px; /* Adjust the font size */
     }
@@ -464,13 +466,13 @@ span{
       width: 100%;
       font-size: 2em; /* Adjust the font size */
     }
+  
     .project-center br {
-        display: none;
+      display: none;
     }
-    .body br {
-        display: none;
-      }
+  
   }
+  
 
 .hobbies{
     width: 100%;
@@ -537,25 +539,27 @@ span{
     bottom: 49%;
     opacity: 1;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .hobbies {
       padding-top: 50px; /* Adjust the top padding */
     }
+  
     .hobbies-center h3 {
-        font-size: 24px; /* Adjust the font size */
-      }
-    
+      font-size: 24px; /* Adjust the font size */
+    }
+  
     .hobbies-row {
       grid-template-columns: repeat(auto-fit, minmax(150px, auto)); /* Adjust the column size */
       grid-gap: 10px; /* Add gap between grid items */
     }
-    
+  
     .hobbies-col {
       flex-basis: 48%; /* Adjust the flex basis */
       margin-bottom: 20px; /* Adjust the bottom margin */
     }
-    
+  
     .layer h3 {
       font-size: 25px; /* Adjust the font size */
     }
   }
+  
